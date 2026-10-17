@@ -3,43 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Kafe Saya</title>
+  <title>Kasir Kafe Saya</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>☕ Kafe Saya</h1>
-    <p id="nomor‑meja">Meja: —</p>
-  </header>
+  <div class="container">
+    <header class="header-kafe">
+      <h1>📋 Daftar Pesanan Masuk</h1>
+      <p>Halaman untuk pemilik kafe</p>
+    </header>
 
-  <main>
-    <h2>Daftar Menu</h2>
-    <div class="daftar‑menu">
-      <div class="item‑menu" data‑harga="15000">
-        <h3>Kopi Hitam</h3>
-        <p>Rp 15.000</p>
-        <button class="tambah‑ke‑keranjang">+ Tambah</button>
-      </div>
-      <div class="item‑menu" data‑harga="12000">
-        <h3>Teh Manis</h3>
-        <p>Rp 12.000</p>
-        <button class="tambah‑ke‑keranjang">+ Tambah</button>
-      </div>
-      <div class="item‑menu" data‑harga="25000">
-        <h3>Roti Bakar Keju</h3>
-        <p>Rp 25.000</p>
-        <button class="tambah‑ke‑keranjang">+ Tambah</button>
-      </div>
-    </div>
+    <div id="daftarPesananKasir"></div>
+    <br>
+    <button id="btnSegarkan" class="btn‑lanjut">Segarkan Daftar</button>
+  </div>
 
-    <section class="keranjang">
-      <h2>Keranjang Pesanan</h2>
-      <div id="isi‑keranjang"></div>
-      <p>Total: <span id="total‑harga">Rp 0</span></p>
-      <button id="tombol‑bayar">Lanjut Bayar</button>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
+  <script src="script‑kasir.js"></script>
 </body>
 </html>

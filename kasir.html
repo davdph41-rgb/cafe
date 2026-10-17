@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Kafe Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>☕ Kafe Saya</h1>
+    <p id="nomor‑meja">Meja: —</p>
+  </header>
+
+  <main>
+    <h2>Daftar Menu</h2>
+    <div class="daftar‑menu">
+      <div class="item‑menu" data‑harga="15000">
+        <h3>Kopi Hitam</h3>
+        <p>Rp 15.000</p>
+        <button class="tambah‑ke‑keranjang">+ Tambah</button>
+      </div>
+      <div class="item‑menu" data‑harga="12000">
+        <h3>Teh Manis</h3>
+        <p>Rp 12.000</p>
+        <button class="tambah‑ke‑keranjang">+ Tambah</button>
+      </div>
+      <div class="item‑menu" data‑harga="25000">
+        <h3>Roti Bakar Keju</h3>
+        <p>Rp 25.000</p>
+        <button class="tambah‑ke‑keranjang">+ Tambah</button>
+      </div>
+    </div>
+
+    <section class="keranjang">
+      <h2>Keranjang Pesanan</h2>
+      <div id="isi‑keranjang"></div>
+      <p>Total: <span id="total‑harga">Rp 0</span></p>
+      <button id="tombol‑bayar">Lanjut Bayar</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

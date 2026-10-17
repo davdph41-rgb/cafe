@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Kafe Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header-kafe">
+      <h1>☕ Kafe Saya</h1>
+      <p class="nomor-meja">Meja: —</p>
+    </header>
+
+    <section class="bagian-menu">
+      <h2>Daftar Menu</h2>
+      <div class="item" data-nama="Kopi Hitam" data-harga="800">
+  <h3>Kopi Hitam</h3>
+  <p>Rp 800</p>
+  <button class="btn-tambah">+ Tambah</button>
+</div>
+<div class="item" data-nama="Teh Manis" data-harga="600">
+  <h3>Teh Manis</h3>
+  <p>Rp 600</p>
+  <button class="btn-tambah">+ Tambah</button>
+</div>
+<div class="item" data-nama="Roti Bakar Keju" data-harga="1200">
+  <h3>Roti Bakar Keju</h3>
+  <p>Rp 1.200</p>
+  <button class="btn-tambah">+ Tambah</button>
+</div>
+
+    </section>
+
+    <section class="bagian-keranjang">
+      <h2>Keranjang Pesanan</h2>
+      <div id="isiKeranjang"></div>
+      <button id="btnKosong" class="btn-kosong">Batalkan Semua Pesanan</button>
+      <div class="total">
+        <strong>Total: <span id="totalHarga">Rp 0</span></strong>
+      </div>
+      <button id="btnLanjut" class="btn-lanjut" disabled>Lanjut Isi Data</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

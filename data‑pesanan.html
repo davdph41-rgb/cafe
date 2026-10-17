@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Pesanan | Kafe Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header-kafe">
+      <h1>Data Pesanan</h1>
+      <p id="tampilMeja">Meja: —</p>
+    </header>
+
+    <section class="form-data">
+      <label>Nama Pemesan</label>
+      <input type="text" id="namaPemesan" placeholder="Contoh: Budi">
+
+      <label>Nomor Meja</label>
+      <input type="text" id="inputMeja" placeholder="Isi nomor meja Anda">
+
+      <label>Catatan Tambahan</label>
+      <textarea id="catatan" rows="3" placeholder="Contoh: Kopi tidak pakai gula"></textarea>
+    </section>
+
+    <section class="ringkasan-pesanan">
+      <h3>Ringkasan Pesanan</h3>
+      <div id="daftarRingkasan"></div>
+      <hr>
+      <p class="subtotal">Subtotal: <span id="subtotalRingkasan">Rp 0</span></p>
+      <p class="total"><strong>Total Bayar: <span id="totalRingkasan">Rp 0</span></strong></p>
+    </section>
+
+    <div class="tombol-grup">
+      <button id="btnKembali" class="btn-kembali">← Kembali ke Menu</button>
+      <button id="btnKeBayar" class="btn-lanjut">Lanjut ke Pembayaran →</button>
+    </div>
+  </div>
+
+  <script src="script-data.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+body {
+  background-color: #f8f3eb;
+  padding: 16px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.header-kafe {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #6b4e31;
+  color: white;
+  border-radius: 12px;
+}
+.nomor-meja {
+  margin-top: 8px;
+  font-size: 18px;
+}
+.bagian-menu h2 {
+  margin-bottom: 12px;
+  color: #443322;
+}
+.item {
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.btn-tambah {
+  background: #8b5a2b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.bagian-keranjang {
+  margin-top: 32px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.barang-keranjang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+.btn-hapus {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn-kosong {
+  width: 100%;
+  margin:12px 0;
+  padding:10px;
+  background:#dd6b20;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+.total {
+  margin: 16px 0;
+  font-size: 18px;
+}
+.btn-lanjut {
+  width: 100%;
+  padding: 14px;
+  background: #2c7a7b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-lanjut:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.form-data {
+  margin: 20px 0;
+}
+.form-data label {
+  display: block;
+  margin-top:14px;
+  margin-bottom:6px;
+  font-weight:500;
+}
+.form-data input, .form-data textarea {
+  width:100%;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  font-size:16px;
+}
+.ringkasan-pesanan {
+  background:#fff;
+  padding:16px;
+  border-radius:12px;
+  margin:24px 0;
+}
+.barang-ringkasan {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+.subtotal {
+  margin-top:10px;
+  font-size:15px;
+  color:#444;
+}
+hr {
+  margin:12px 0;
+  border: none;
+  border-top:1px solid #ddd;
+}
+.tombol-grup {
+  display:grid;
+  gap:12px;
+}
+.btn-kembali {
+  width:100%;
+  padding:14px;
+  background:#718096;
+  color:white;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.ringkasan-bayar, .area-qris {
+  background:#fff;
+  padding:16px;
+  border‑radius:12px;
+  margin:20px 0;
+}
+.total‑bayar {
+  margin‑top:12px;
+  font‑size:18px;
+  font‑weight:bold;
+}

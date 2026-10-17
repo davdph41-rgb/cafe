@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembayaran | Kafe Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header-kafe">
+      <h1>Pembayaran Pesanan</h1>
+      <p id="infoMeja">Meja: —</p>
+    </header>
+
+    <section class="ringkasan-bayar">
+      <h3>Ringkasan Pesanan</h3>
+      <p>Nama: <span id="infoNama"></span></p>
+      <p>Catatan: <span id="infoCatatan"></span></p>
+      <div id="daftarBarangBayar"></div>
+      <p class="total-bayar"><strong>Total Bayar: <span id="totalBayar">Rp 0</span></strong></p>
+    </section>
+
+    <section class="area-qris">
+      <h3>Scan QRIS untuk Bayar</h3>
+      <div id="tempatQris">
+        <p>Menyiapkan kode pembayaran…</p>
+      </div>
+      <p id="statusBayar"></p>
+    </section>
+
+    <button id="btnKembaliData" class="btn-kembali">← Kembali ke Isi Data</button>
+  </div>
+
+  <script src="script‑bayar.js"></script>
+</body>
+</html>

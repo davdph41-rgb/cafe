@@ -148,15 +148,14 @@ hr {
   font-size:16px;
   cursor:pointer;
 }
-
 .ringkasan-bayar, .area-qris {
   background:#fff;
   padding:16px;
-  border‑radius:12px;
+  border-radius:12px;
   margin:20px 0;
 }
-.total‑bayar {
-  margin‑top:12px;
-  font‑size:18px;
-  font‑weight:bold;
+.total-bayar {
+  margin-top:12px;
+  font-size:18px;
+  font-weight:bold;
 }
